@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "gogul-drive"
+version = "0.1.0"
+description = "A basic file server."
+authors = ["Gokul Narayanan <gokul.narayanan@pm.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
